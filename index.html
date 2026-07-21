@@ -104,13 +104,25 @@
       width: 100%;
     }
     .gate-kicker {
+      display: inline-block;
       color: var(--gold-lt);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .22em;
-      text-transform: uppercase;
-      display: block;
-      margin-bottom: 8px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 500;
+      font-style: italic;
+      letter-spacing: .06em;
+      text-transform: none;
+      margin-bottom: 10px;
+      padding: 6px 16px;
+      border: 1px solid rgba(243,203,97,.5);
+      border-radius: 2px;
+      background: rgba(59,11,24,.55);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      line-height: 1.5;
+    }
+    @media (max-width: 430px) {
+      .gate-kicker { font-size: 12px; padding: 5px 12px; }
     }
     .gate-title {
       font-family: Fraunces, serif;
