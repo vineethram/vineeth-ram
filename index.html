@@ -304,15 +304,26 @@
     }
     .invite-body strong,
     .couple-names {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       font-family: 'Imperial Script', cursive;
       font-style: italic;
       font-weight: 400;
-      font-size: clamp(28px, 4vw, 28px);
-      line-height: 1.25;
+      font-size: clamp(18px, 4vw, 26px);
+      line-height: 1.4;
       margin: 6px 0;
       color: inherit;
       animation: gold-shine-text 3s ease-in-out infinite;
+    }
+    .couple-amp {
+      display: block;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: .55em;
+      font-style: italic;
+      opacity: .7;
+      line-height: 1.2;
+      margin: 2px 0;
     }
     @keyframes gold-shine-text {
       0%, 100% {
@@ -695,7 +706,7 @@
 
     <p class="invite-body reveal">
       Together with their families and friends,<br>
-      <strong class="couple-names">Lakshmi S Pillai &amp; Vineeth Ram M R</strong><br>
+            <strong class="couple-names">Lakshmi S Pillai<span class="couple-amp">&amp;</span>Vineeth Ram M R</strong><br>
       invite you to celebrate their new beginning.
     </p>
 
