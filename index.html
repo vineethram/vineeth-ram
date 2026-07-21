@@ -282,6 +282,7 @@
       display: block;
       width: 170px;
       height: 85px;
+      object-fit: contain;
       margin: 0 auto 14px;
     }
 
@@ -322,7 +323,7 @@
       font-family: 'Imperial Script', cursive;
       font-style: italic;
       font-weight: 400;
-     font-size: clamp(36px, 9vw, 56px);
+      font-size: clamp(36px, 9vw, 56px);
       line-height: 1.5;
       margin: 12px 0;
       color: inherit;
@@ -662,48 +663,7 @@
     <img class="invite-ganesha reveal" src="icons8-lord-ganesh-100.png" alt="Lord Ganesha" draggable="false">
 
     <!-- temple crown -->
-    <svg class="temple-crown reveal" viewBox="0 0 200 100" fill="none" aria-label="Temple gopuram ornament">
-      <g stroke="#b78525" stroke-width="1.2" stroke-linecap="round">
-        <!-- BASE PLATFORM -->
-        <path d="M8 96h184"/>
-        <path d="M8 88h184V96H8z"/>
-        <!-- TIER 1 — widest -->
-        <path d="M20 88V78h160V88"/><path d="M20 83h10m140 0h10"/>
-        <!-- TIER 2 -->
-        <path d="M32 78V67h136V78"/><path d="M32 73h12m112 0h12"/>
-        <!-- TIER 3 -->
-        <path d="M44 67V56h112V67"/><path d="M44 62h12m88 0h12"/>
-        <!-- TIER 4 -->
-        <path d="M56 56V45h88V56"/> <path d="M56 51h12m64 0h12"/>
-        <!-- TIER 5 -->
-        <path d="M68 45V36h64V45"/> <path d="M68 41h10m44 0h10"/>
-        <!-- TIER 6 -->
-        <path d="M78 36V27h44V36"/> <path d="M78 32h8m28 0h8"/>
-        <!-- TIER 7 — narrow neck -->
-        <path d="M88 27V18h24V27"/> <path d="M88 23h6m20 0h6"/>
-        <!-- KALASAM base drum -->
-        <path d="M94 18V12h12V18"/>
-        <!-- KALASAM pot -->
-        <path d="M94 12 C94 7 106 7 106 12"/>
-        <!-- KALASAM neck -->
-        <path d="M98 7h4V4"/>
-        <!-- KALASAM finial -->
-        <path d="M100 4 C99 2 98 1 100 0 C102 1 101 2 100 4Z" fill="#b78525"/>
-      </g>
-      <!-- subtle tier fills -->
-      <rect x="8"  y="88" width="184" height="8"  fill="#b78525" opacity=".07"/>
-      <rect x="20" y="78" width="160" height="10" fill="#b78525" opacity=".05"/>
-      <!-- gold dot corner accents -->
-      <g fill="#b78525">
-        <circle cx="100" cy="0"  r="1.2"/>
-        <circle cx="88"  cy="18" r="1.4"/><circle cx="112" cy="18" r="1.4"/>
-        <circle cx="78"  cy="27" r="1.3"/><circle cx="122" cy="27" r="1.3"/>
-        <circle cx="68"  cy="36" r="1.2"/><circle cx="132" cy="36" r="1.2"/>
-        <circle cx="56"  cy="45" r="1.2"/><circle cx="144" cy="45" r="1.2"/>
-        <circle cx="44"  cy="56" r="1.2"/><circle cx="156" cy="56" r="1.2"/>
-        <circle cx="8"   cy="96" r="1.5"/><circle cx="192" cy="96" r="1.5"/>
-      </g>
-    </svg>
+    <img class="temple-crown reveal" src="Gopuram.png" alt="Temple Gopuram" draggable="false">
 
     <!-- lamp -->
     <svg class="lamp reveal" viewBox="0 0 64 90" fill="none" aria-label="Oil lamp">
@@ -718,7 +678,7 @@
 
     <p class="invite-body reveal">
       Together with their families and friends,<br>
-            <strong class="couple-names">Lakshmi S Pillai<span class="couple-amp">&amp;</span>Vineeth Ram M R</strong><br>
+      <strong class="couple-names">Lakshmi S Pillai<span class="couple-amp">&amp;</span>Vineeth Ram M R</strong><br>
       invite you to celebrate their new beginning.
     </p>
 
